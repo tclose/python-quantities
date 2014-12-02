@@ -149,7 +149,8 @@ MOhm = UnitQuantity(
 S = siemens = UnitQuantity(
     'siemens',
     A/V,
-    symbol='S'
+    symbol='S',
+    aliases=['mho']
 )
 mS = siemens = UnitQuantity(
     'millisiemens',
