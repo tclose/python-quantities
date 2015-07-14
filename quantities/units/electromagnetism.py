@@ -161,7 +161,8 @@ uS = siemens = UnitQuantity(
     'microsiemens',
     mS/1000,
     symbol='uS',
-    u_symbol='μS'
+    u_symbol='μS',
+    aliases=['micromho']
 )
 nS = siemens = UnitQuantity(
     'nanosiemens',

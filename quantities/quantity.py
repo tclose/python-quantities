@@ -153,6 +153,7 @@ class Quantity(np.ndarray):
     @property
     def units(self):
         return Quantity(1.0, (self.dimensionality))
+
     @units.setter
     def units(self, units):
         try:
